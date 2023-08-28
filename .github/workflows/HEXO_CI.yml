@@ -16,13 +16,13 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: '12' #超过12的版本有几个warning，我不想处理
+        node-version: '18' #超过12的版本有几个warning，我不想处理
 
     # Deploy hexo blog website.
     - name: Setup Hexo
       env:
         # 定义了一个变量 secrets里面添加的名字
-        ACTION_DEPLOY_KEY: ${{ secrets.DEPLOY_SECRET }} 
+        ACTION_DEPLOY_KEY: ${{ secrets.BLOG }} 
       run: |
           # 创建了一个ssh文件夹
           mkdir -p ~/.ssh/
