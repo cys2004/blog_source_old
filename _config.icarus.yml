@@ -129,10 +129,10 @@ widgets:
         order_by: name
         amount: 
         show_count: true
-    -
-        position: right
-        type: twikoo_new
-        envId: 'https://twikoo.tcea.top'
+    #-
+    #    position: right
+    #    type: twikoo_new
+    #    envId: 'https://twikoo.tcea.top'
     #-
     #    position: left
     #    type: followit
