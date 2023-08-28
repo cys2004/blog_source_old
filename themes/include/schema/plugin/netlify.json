@@ -1,0 +1,7 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "/plugin/netlify.json",
+  "description": "netlify identity",
+  "type": "boolean",
+  "default": false
+}
