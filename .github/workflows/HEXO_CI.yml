@@ -10,7 +10,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Install Theme
-        working-directory: ./theme/icarus
+        working-directory: theme/icarus
         run: |
           npm install
 
