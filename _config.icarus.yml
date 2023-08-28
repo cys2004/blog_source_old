@@ -189,15 +189,15 @@ widgets:
 plugins:
     animejs: false
     back_to_top: true
-    #baidu_analytics:
-    #    tracking_id: 
+    baidu_analytics:
+        tracking_id: 3ba5606e3fd93355431d26cf5d1a89f5
     #bing_webmaster:
     #    tracking_id: 
     busuanzi: true
     gallery: true
     katex: false
     mathjax: false
-    outdated_browser: true
+    outdated_browser: false
     progressbar: true
 providers:
     cdn: loli
