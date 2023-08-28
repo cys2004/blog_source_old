@@ -108,7 +108,7 @@ widgets:
         position: left
         type: profile
         author: 白鼠
-        author_title: 白鼠的小站
+        author_title: 
         location: 中国，山东
         avatar: https://p0.meituan.net/csc/9d92e3239ccf0a799a2f00418564f4b2108562.png
         avatar_rounded: true
@@ -148,6 +148,10 @@ widgets:
             猹盘: 'https://ed.tcea.top/ChaIndex'
             虹墨空间站: 'https://www.imaegoo.com'
             SnowyKami: 'https://snowykami.me'
+            TanglyBlog: 'https://blog.tangly1024.com'
+            Sora的小站: 'https://sorax.top'
+            VIXCITY Blog: 'https://blog.vixcitycc.top'
+
     # Google AdSense unit configurations
     #-
     #    # Where should the widget be placed, left sidebar or right sidebar
