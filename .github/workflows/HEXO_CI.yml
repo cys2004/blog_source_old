@@ -4,7 +4,7 @@ on:
   [push]
 
 jobs:
-  build: # job1 id
+  build:
     runs-on: ubuntu-latest
     name: A job to deploy blog.
     steps:
@@ -13,7 +13,7 @@ jobs:
       with:
         submodules: true
 
-    - name: Cache node modules # step2
+    - name: Cache node modules
       uses: actions/cache@v1
       id: cache
       with:
@@ -21,7 +21,7 @@ jobs:
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
           ${{ runner.os }}-node-
-    - name: Install Dependencies # step3 name
+    - name: Install Dependencies
       if: steps.cache.outputs.cache-hit != 'true'
       run: npm install
 
