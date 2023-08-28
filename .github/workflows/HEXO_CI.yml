@@ -17,11 +17,8 @@ jobs:
       - name: Install Theme
         working-directory: themes/icarus
         run: |
+          npm install --save-dev @babel/core @babel/cli @babel/preset-env
           npm install
-          
-      - name: Install babel-plugin-inferno
-        run: |
-          npm install babel-plugin-inferno
 
       - name: Build and Deploy
         uses: theme-keep/hexo-deploy-github-pages-action@master
