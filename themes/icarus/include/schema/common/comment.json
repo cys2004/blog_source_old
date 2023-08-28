@@ -36,9 +36,6 @@
         },
         {
             "$ref": "/comment/waline.json"
-        },
-        {
-            "$ref": "/comment/twikoo.json"
         }
     ]
 }

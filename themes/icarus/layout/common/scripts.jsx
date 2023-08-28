@@ -1,5 +1,4 @@
 const { Component, Fragment } = require('inferno');
-const { toMomentLocale } = require('hexo/lib/plugins/helper/date');
 const Plugins = require('./plugins');
 
 module.exports = class extends Component {
@@ -7,7 +6,7 @@ module.exports = class extends Component {
         const { site, config, helper, page } = this.props;
         const { url_for, cdn } = helper;
         const { article } = config;
-        const language = toMomentLocale(page.lang || page.language || config.language || 'en');
+        const language = page.lang || page.language || config.language || 'en';
 
         let fold = 'unfolded';
         let clipboard = true;
