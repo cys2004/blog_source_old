@@ -8,17 +8,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
-        
-      - name: Setup node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '18.x'
-
-      - name: Install Theme
-        working-directory: themes/icarus
-        run: |
-          npm install --save-dev @babel/core @babel/cli @babel/preset-env
-          npm install
 
       - name: Build and Deploy
         uses: theme-keep/hexo-deploy-github-pages-action@master
