@@ -1,34 +1,36 @@
 version: 5.1.0
 variant: default
-logo: https://p0.meituan.net/csc/9d92e3239ccf0a799a2f00418564f4b2108562.png
+logo: 
+    light: https://p0.meituan.net/csc/9d92e3239ccf0a799a2f00418564f4b2108562.png
+    dark: https://p0.meituan.net/csc/9d92e3239ccf0a799a2f00418564f4b2108562.png
 head:
     favicon: https://p0.meituan.net/csc/9d92e3239ccf0a799a2f00418564f4b2108562.png
-    manifest:
-        name: 
-        short_name: 
-        start_url: 
-        theme_color: 
-        background_color: 
-        display: standalone
-        icons:
-            -
-                src: ''
-                sizes: ''
-                type: 
-    open_graph:
-        title: 
-        type: blog
-        url: 
-        image: 
-        site_name: 
-        author: 
-        description: 
-        twitter_card: 
-        twitter_id: 
-        twitter_site: 
-        google_plus: 
-        fb_admins: 
-        fb_app_id: 
+    #manifest:
+    #    name: 
+    #    short_name: 
+    #    start_url: 
+    #    theme_color: 
+    #    background_color: 
+    #    display: standalone
+    #    icons:
+    #        -
+    #            src: ''
+    #            sizes: ''
+    #            type: 
+    #open_graph:
+    #    title: 
+    #    type: blog
+    #    url: 
+    #    image: 
+    #    site_name: 
+    #    author: 
+    #    description: 
+    #    twitter_card: 
+    #    twitter_id: 
+    #    twitter_site: 
+    #    google_plus: 
+    #    fb_admins: 
+    #    fb_app_id: 
     structured_data:
         title: 
         description: 
@@ -39,13 +41,15 @@ head:
         image: 
     meta:
         - ''
-    rss: 
+    rss: /atom.xml
 navbar:
     menu:
-        白鼠的小站: /
-        归档: /archives
-        分类: /categories
-        歌单: /playlist
+        首页: /
+        时间轴: /archives/
+        分类: /categories/
+        标签: /tags/
+        友情链接: /friends/
+        关于: /about/
     links: 
 footer:
     links:
@@ -103,58 +107,82 @@ widgets:
         position: left
         type: profile
         author: 白鼠
-        author_title: 
+        author_title: 白鼠的小站
         location: 中国，山东
         avatar: https://p0.meituan.net/csc/9d92e3239ccf0a799a2f00418564f4b2108562.png
-        avatar_rounded: false
+        avatar_rounded: true
         gravatar: 
+        social_links:
+            QQ:
+                icon: fab fa-qq
+                url: 'tencent://message/?uin=1506400017&Site=www.tcea.top&Menu=yes'
+            Mail:
+                icon: fas fa-envelope
+                url: 'mailto:official@tcea.com'
+            RSS:
+                icon: fas fa-rss
+                url: '/atom.xml'
+ # Archives widget configurations
     -
-        position: right
-        type: toc
-        index: true
-        collapsed: true
-        depth: 4
-    -
-        position: left
-        type: categories
-    -
-        position: right
-        type: recent_posts
-    -
+        # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: archives
+    # Categories widget configurations
     -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: categories
+    # Tags widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: tags
-        order_by: name
-        amount: 
-        show_count: true
+    # Recommendation links widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: links
+        # Names and URLs of the sites
+        links:
+            Cyanogen Community: 'https://qcea.top'
+    # Google AdSense unit configurations
     #-
+    #    # Where should the widget be placed, left sidebar or right sidebar
+    #    position: left
+    #    type: adsense
+    #    # AdSense client ID
+    #    client_id: 'ca-pub-5716633754544549'
+    #    # AdSense AD unit ID
+    #    slot_id: '6035187824'
+    # Table of contents widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: right
+        type: toc
+    # Recent posts widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: right
+        type: recent_posts
+    # Google FeedBurner email subscription widget configurations
+    #-
+    #    Where should the widget be placed, left sidebar or right sidebar
     #    position: right
-    #    type: twikoo_new
-    #    envId: 'https://twikoo.tcea.top'
-    #-
-    #    position: left
-    #    type: followit
-    #    description: 
-    #    action_url: https://api.follow.it/subscription-form/aUYvVFV2d2pGRU1TK01zNHBuRkJHT1EwUG1CS3FlWkoxb2tlc1ZESnBpWlNIWEVlKzJBR3JrL0tkWStxTXhVUnMrMDdIM2dacmNqbm4xeXI2NU5zL0tjeU5xaVd4TFhTSFA5RU1CaTRyZURyRStKNTgxUll1d016bFMzRFdtaGl8ekljNnN5MERFUHpESTZmVnhWZGd6VmVlTnRqYURLZHFqYjhkNVgxNi81bz0=/8
-    #    verification_code: 'rgbASSy0yMWWzmu9gsmb'
-    #-
-    #    position: left
-    #    type: links
-    #    links:
-    #        猹盘: https://ed.tcea.top
-    #        Hexo: https://hexo.io
+    #    type: subscribe_email
+        # Hint text under the email input
+    #    description: Powered by Google feedburner
+        # Feedburner ID
+    #    feedburner_id: 'imaegoo'
 plugins:
     animejs: true
     back_to_top: true
-    baidu_analytics:
-        tracking_id: 
-    bing_webmaster:
-        tracking_id: 
+    #baidu_analytics:
+    #    tracking_id: 
+    #bing_webmaster:
+    #    tracking_id: 
     busuanzi: false
     gallery: true
-    katex: true
+    katex: false
     mathjax: false
     outdated_browser: true
     progressbar: true
