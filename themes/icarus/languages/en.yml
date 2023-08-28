@@ -19,7 +19,7 @@ common:
 widget:
     follow: 'Follow'
     recents: 'Recents'
-    links: 'Friends'
+    links: 'Links'
     catalogue: 'Catalogue'
     subscribe_email: 'Subscribe for updates'
     subscribe: 'Subscribe'
@@ -31,7 +31,6 @@ article:
     more: 'Read more'
     comments: 'Comments'
     read_time: '%s read'
-    edited: 'edited'
     word_count:
         one: 'About %d word'
         other: 'About %d words'

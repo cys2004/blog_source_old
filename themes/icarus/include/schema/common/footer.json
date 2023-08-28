@@ -34,12 +34,6 @@
                     }
                 }
             ]
-        },
-        "icp": {
-            "type": "string",
-            "description": "备案号",
-            "default": "",
-            "nullable": true
         }
     }
 }

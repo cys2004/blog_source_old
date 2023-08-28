@@ -10,9 +10,6 @@
         "back_to_top": {
             "$ref": "/plugin/back_to_top.json"
         },
-        "netlify": {
-            "$ref": "/plugin/netlify.json"
-        },
         "baidu_analytics": {
             "$ref": "/plugin/baidu_analytics.json"
         },
