@@ -1,0 +1,160 @@
+version: 5.1.0
+variant: default
+logo: https://p0.meituan.net/csc/9d92e3239ccf0a799a2f00418564f4b2108562.png
+head:
+    favicon: https://p0.meituan.net/csc/9d92e3239ccf0a799a2f00418564f4b2108562.png
+    manifest:
+        name: 
+        short_name: 
+        start_url: 
+        theme_color: 
+        background_color: 
+        display: standalone
+        icons:
+            -
+                src: ''
+                sizes: ''
+                type: 
+    open_graph:
+        title: 
+        type: blog
+        url: 
+        image: 
+        site_name: 
+        author: 
+        description: 
+        twitter_card: 
+        twitter_id: 
+        twitter_site: 
+        google_plus: 
+        fb_admins: 
+        fb_app_id: 
+    structured_data:
+        title: 
+        description: 
+        url: 
+        author: 
+        publisher: 
+        publisher_logo: 
+        image: 
+    meta:
+        - ''
+    rss: 
+navbar:
+    menu:
+        白鼠的小站: /
+        归档: /archives
+        分类: /categories
+        歌单: /playlist
+    links: 
+footer:
+    links:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: https://creativecommons.org/
+        Attribution 4.0 International:
+            icon: fab fa-creative-commons-by
+            url: https://creativecommons.org/licenses/by/4.0/
+article:
+    highlight:
+        theme: atom-one-light
+        clipboard: true
+        fold: unfolded
+    readtime: true
+    update_time: true
+    licenses:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: https://creativecommons.org/
+        Attribution:
+            icon: fab fa-creative-commons-by
+            url: https://creativecommons.org/licenses/by/4.0/deed.zh
+        Noncommercial:
+            icon: fab fa-creative-commons-nc
+            url: https://creativecommons.org/licenses/by-nc/4.0/deed.zh
+search:
+    type: insight
+comment:
+    type: twikoo
+    env_id: https://twikoo.tcea.top
+    jsUrl: https://cdn.jsdelivr.net/npm/twikoo@1.6.17/dist/twikoo.all.min.js
+    region: ap-guangzhou     # Optional
+    lang: zh-CN              # Optional
+
+    #type: valine
+    #app_id: dIoIKwhCkzyyIwYfEIKuCbn3-gzGzoHsz
+    #app_key: gJ4jOsrznFSTT6CklNNd9TWE
+donates:
+    -
+        type: alipay
+        qrcode: https://p0.meituan.net/csc/ab5b85a443cd601158ebddf7613b4f77197446.jpg
+    -
+        type: wechat
+        qrcode: https://p0.meituan.net/csc/140e679555dfdbd5111567859ecdb31f105210.png
+share:
+    type: sharejs
+sidebar:
+    left:
+        sticky: true
+    right:
+        sticky: true
+widgets:
+    -
+        position: left
+        type: profile
+        author: 白鼠
+        author_title: 
+        location: 中国，山东
+        avatar: https://p0.meituan.net/csc/9d92e3239ccf0a799a2f00418564f4b2108562.png
+        avatar_rounded: false
+        gravatar: 
+    -
+        position: right
+        type: toc
+        index: true
+        collapsed: true
+        depth: 4
+    -
+        position: left
+        type: categories
+    -
+        position: right
+        type: recent_posts
+    -
+        position: left
+        type: archives
+    -
+        position: left
+        type: tags
+        order_by: name
+        amount: 
+        show_count: true
+    -
+        position: left
+        type: followit
+        description: 
+        action_url: https://api.follow.it/subscription-form/aUYvVFV2d2pGRU1TK01zNHBuRkJHT1EwUG1CS3FlWkoxb2tlc1ZESnBpWlNIWEVlKzJBR3JrL0tkWStxTXhVUnMrMDdIM2dacmNqbm4xeXI2NU5zL0tjeU5xaVd4TFhTSFA5RU1CaTRyZURyRStKNTgxUll1d016bFMzRFdtaGl8ekljNnN5MERFUHpESTZmVnhWZGd6VmVlTnRqYURLZHFqYjhkNVgxNi81bz0=/8
+        verification_code: 'rgbASSy0yMWWzmu9gsmb'
+    -
+        position: left
+        type: links
+        links:
+            猹盘: https://ed.tcea.top
+            Hexo: https://hexo.io
+plugins:
+    animejs: true
+    back_to_top: true
+    baidu_analytics:
+        tracking_id: 
+    bing_webmaster:
+        tracking_id: 
+    busuanzi: false
+    gallery: true
+    katex: true
+    mathjax: false
+    outdated_browser: true
+    progressbar: true
+providers:
+    cdn: loli
+    fontcdn: loli
+    iconcdn: loli
