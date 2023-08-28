@@ -130,17 +130,21 @@ widgets:
         amount: 
         show_count: true
     -
-        position: left
-        type: followit
-        description: 
-        action_url: https://api.follow.it/subscription-form/aUYvVFV2d2pGRU1TK01zNHBuRkJHT1EwUG1CS3FlWkoxb2tlc1ZESnBpWlNIWEVlKzJBR3JrL0tkWStxTXhVUnMrMDdIM2dacmNqbm4xeXI2NU5zL0tjeU5xaVd4TFhTSFA5RU1CaTRyZURyRStKNTgxUll1d016bFMzRFdtaGl8ekljNnN5MERFUHpESTZmVnhWZGd6VmVlTnRqYURLZHFqYjhkNVgxNi81bz0=/8
-        verification_code: 'rgbASSy0yMWWzmu9gsmb'
-    -
-        position: left
-        type: links
-        links:
-            猹盘: https://ed.tcea.top
-            Hexo: https://hexo.io
+        position: right
+        type: twikoo_new
+        envId: 'https://twikoo.tcea.top'
+    #-
+    #    position: left
+    #    type: followit
+    #    description: 
+    #    action_url: https://api.follow.it/subscription-form/aUYvVFV2d2pGRU1TK01zNHBuRkJHT1EwUG1CS3FlWkoxb2tlc1ZESnBpWlNIWEVlKzJBR3JrL0tkWStxTXhVUnMrMDdIM2dacmNqbm4xeXI2NU5zL0tjeU5xaVd4TFhTSFA5RU1CaTRyZURyRStKNTgxUll1d016bFMzRFdtaGl8ekljNnN5MERFUHpESTZmVnhWZGd6VmVlTnRqYURLZHFqYjhkNVgxNi81bz0=/8
+    #    verification_code: 'rgbASSy0yMWWzmu9gsmb'
+    #-
+    #    position: left
+    #    type: links
+    #    links:
+    #        猹盘: https://ed.tcea.top
+    #        Hexo: https://hexo.io
 plugins:
     animejs: true
     back_to_top: true
