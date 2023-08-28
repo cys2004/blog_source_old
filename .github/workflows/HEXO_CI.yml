@@ -8,38 +8,33 @@ jobs:
     name: A job to deploy blog.
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v1
       with:
         submodules: true # Checkout private submodules(themes or something else).
-
+    
     # Caching dependencies to speed up workflows. (GitHub will remove any cache entries that have not been accessed in over 7 days.)
-    - name: Setup Node.js
-      uses: actions/setup-node@v1
+    - name: Cache node modules
+      uses: actions/cache@v1
+      id: cache
       with:
-        node-version: '18' #超过12的版本有几个warning，我不想处理
-
+        path: node_modules
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+    - name: Install Dependencies
+      if: steps.cache.outputs.cache-hit != 'true'
+      run: npm ci
+    
     # Deploy hexo blog website.
-    - name: Setup Hexo
-      env:
-        # 定义了一个变量 secrets里面添加的名字
-        ACTION_DEPLOY_KEY: ${{ secrets.BLOG }} 
-      run: |
-          # 创建了一个ssh文件夹
-          mkdir -p ~/.ssh/
-          # 把key复制进去
-          echo "$ACTION_DEPLOY_KEY" > ~/.ssh/id_rsa
-          chmod 700 ~/.ssh
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          # 配置git
-          git config --global user.email "cys2004_cy@163.com"
-          git config --global user.name "cys2004"
-          # 安装hexo
-          npm install hexo-cli -g
-          npm install
-          npm install hexo-deployer-git --save
-
     - name: Deploy
+      id: deploy
+      uses: sma11black/hexo-action@v1.0.3
+      with:
+        deploy_key: ${{ secrets.DEPLOY_KEY }}
+        user_name: cys2004  # (or delete this input setting to use bot account)
+        user_email: cys2004_cy@163.com  # (or delete this input setting to use bot account)
+        commit_msg: ${{ github.event.head_commit.message }}  # (or delete this input setting to use hexo default settings)
+    # Use the output from the `deploy` step(use for test action)
+    - name: Get the output
       run: |
-        hexo clean
-        hexo deploy
+        echo "${{ steps.deploy.outputs.notify }}"
