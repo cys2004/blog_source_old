@@ -18,11 +18,15 @@ jobs:
         working-directory: themes/icarus
         run: |
           npm install
+          
+      - name: Install babel-plugin-inferno
+        run: |
+          npm install babel-plugin-inferno
 
       - name: Build and Deploy
-        uses: theme-keep/hexo-deploy-github-pages-action@master # 使用专门部署 Hexo 到 GitHub pages 的 action
+        uses: theme-keep/hexo-deploy-github-pages-action@master
         env:
-          PERSONAL_TOKEN: ${{ secrets.HEXO_DEPLOY }} # secret 名
-          PUBLISH_REPOSITORY: cys2004/cys2004.github.io # 公共仓库，格式：GitHub 用户名/仓库名
-          BRANCH: master # 分支，填 gh-pages 就行
-          PUBLISH_DIR: ./public # 部署 public 目录下的文件
+          PERSONAL_TOKEN: ${{ secrets.HEXO_DEPLOY }}
+          PUBLISH_REPOSITORY: cys2004/cys2004.github.io
+          BRANCH: master
+          PUBLISH_DIR: ./public
