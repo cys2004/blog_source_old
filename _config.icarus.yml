@@ -80,6 +80,7 @@ search:
     type: insight
 comment:
     type: twikoo
+    envId: https://twikoo.tcea.top
     env_id: https://twikoo.tcea.top
     jsUrl: https://cdn.jsdelivr.net/npm/twikoo@1.6.17/dist/twikoo.all.min.js
     region: ap-guangzhou     # Optional
