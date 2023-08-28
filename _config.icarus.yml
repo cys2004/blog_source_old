@@ -193,7 +193,7 @@ plugins:
     #    tracking_id: 
     #bing_webmaster:
     #    tracking_id: 
-    busuanzi: false
+    busuanzi: true
     gallery: true
     katex: false
     mathjax: false
