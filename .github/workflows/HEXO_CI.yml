@@ -9,6 +9,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
+      - name: Install Theme
+        run: |
+          cd ./theme/icarus
+          npm install
+          cd ./
+
       - name: Build and Deploy
         uses: theme-keep/hexo-deploy-github-pages-action@master # 使用专门部署 Hexo 到 GitHub pages 的 action
         env:
