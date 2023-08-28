@@ -151,6 +151,7 @@ widgets:
             TanglyBlog: 'https://blog.tangly1024.com'
             Sora的小站: 'https://sorax.top'
             VIXCITY Blog: 'https://blog.vixcitycc.top'
+            糖醋鱼的小破站: 'https://www.expoli.tech'
 
     # Google AdSense unit configurations
     #-
@@ -180,6 +181,11 @@ widgets:
     #    description: Powered by Google feedburner
         # Feedburner ID
     #    feedburner_id: 'imaegoo'
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: right
+        type: twikoo_new
+        envId: https://twikoo.tcea.top
 plugins:
     animejs: false
     back_to_top: true
