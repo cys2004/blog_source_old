@@ -2,13 +2,13 @@
 abbrlink: bulma_template
 categories: []
 cover: https://www.imaegoo.com/gallery/vector/vector_landscape_1.svg
-date: 2022-12-16T10:5:47.470+8:0
+date: 2022/12/16
 lang: zh-CN
 tags:
 - Bulma
 title: 【转载】活用 Bulma 美化 Icarus 文章
 toc: true
-updated: 2022-12-16T10:5:47.470+8:0
+updated: 2022/12/16
 ---
 转载自iMaeGoo大佬的博客[虹墨空间站](https://www.imaegoo.com/2020/icarus-with-bulma/)。
 
