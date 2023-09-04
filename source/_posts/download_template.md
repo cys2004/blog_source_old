@@ -1,10 +1,19 @@
 ---
-title: 下载地址模板&测试
+abbrlink: download_template
+categories: []
 cover: https://m.360buyimg.com/babel/jfs/t1/48173/8/17425/272518/639ad55bEf2bfd02e/9d93268acb2fd9d2.jpg
+date: 2022/12/15 21:36
 lang: zh-CN
+tags:
+- 测试
+title: 下载地址模板&测试
+toc: ''
+updated: 2022/12/15 21:36
 ---
 下载地址模板
+
 <!--more-->
+
 <div class="box" >
 {% raw %}<article class=""><div class="message-header">{% endraw %}
 下载地址
@@ -21,6 +30,7 @@ lang: zh-CN
 </ul></div>
 
 {% raw %}<div id="国内" class="tab-content" style="display: block;">{% endraw %}
+
 <div class="buttons">
 <button class="button is-info" onclick='window.open("https://ed.tcea.top/ChaIndex/Softwares/Windows/Media/Player/AnimePipe")'>猹盘</button>
 <button class="button is-info" onclick='window.open("https://www.123pan.com/s/aN1KVv-ma0bd")'>123云盘</button>
@@ -44,6 +54,8 @@ lang: zh-CN
 </div>
 {% raw %}</div>{% endraw %}
 
+{% endraw %}
+{% raw %}{% endraw %}
 <style type="text/css">
 .content .tabs ul { margin: 0; }
 .tab-content { display: none; }
@@ -58,7 +70,9 @@ function onTabClick (event) {
     $(event.currentTarget).parent().addClass('is-active');
 }
 </script>
+
 {% raw %}</div></article>{% endraw %}
+
 </div>
 
 ```
