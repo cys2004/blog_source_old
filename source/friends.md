@@ -1,7 +1,7 @@
 ---
 date: 2023/9/4 13:33
 title: 友情链接
-updated: 2023/9/4 13:33
+updated: 2023-9-4T14:10:39.658+8:0
 ---
 {% raw %}
 
@@ -58,16 +58,15 @@ line-height: 26px;
 ---
 
 排名按添加顺序。
-Sorted by added time.
 
 {% raw %}
 
 <div class="friends">
 
 <div class="friend">
-    <div class="friend-avatar" style="background-image: url('![](https://m.360buyimg.com/babel/jfs/t1/31239/1/19758/11491/63ad3be0Fd3971f0b/39e9c066972aae95.png)')"></div>
+    <div class="friend-avatar" style="background-image: url('https://m.360buyimg.com/babel/jfs/t1/31239/1/19758/11491/63ad3be0Fd3971f0b/39e9c066972aae95.png')"></div>
     <div class="friend-detail">
-      <div>网站名称：猹盘&nbsp;</div>
+      <div>网站名称：猹盘 </div>
       <div>网站地址：<a target="_blank" href="https://ed.tcea.top">https://ed.tcea.top</a></div>
       <div>网站简介：一个芜湖起飞的网盘</div>
     </div>
@@ -77,7 +76,7 @@ Sorted by added time.
 </div>
 {% endraw %}
 
----
+{% endraw %}---
 
 如果您希望交换友情链接，敬请在评论区留言。
 
