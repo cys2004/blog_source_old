@@ -1,10 +1,16 @@
 ---
-title: 【转载】非走不可的弯路——张爱玲
+abbrlink: winding_roads
+categories: []
 cover: https://m.360buyimg.com/babel/jfs/t1/189532/9/30824/913724/63934210Ec03bd82e/def573429da349a0.png
+date: 2022/12/15 20:12
 lang: zh-CN
+tags:
+- 转载
+title: 【转载】非走不可的弯路——张爱玲
+toc: ''
+updated: 2022/12/15 20:12
 ---
-
- 偶然所见，深有感触，遂记之。
+偶然所见，深有感触，遂记之。
 
 <!--more-->
 
