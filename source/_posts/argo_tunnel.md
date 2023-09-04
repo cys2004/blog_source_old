@@ -2,7 +2,7 @@
 abbrlink: argo_tunnel
 categories: []
 cover: https://p0.meituan.net/csc/fc0a2fe1b9fcae273668faa89cde579a15465.png
-date: 2022-12-8T10:4:35.631+8:0
+date: 2022/12/8
 lang: zh-CN
 tags:
 - Cloudflare
@@ -10,7 +10,7 @@ tags:
 - 内网穿透
 title: Cloudflare Argo Tunnel实现零成本内网穿透
 toc: true
-updated: 2022-12-8T10:4:35.631+8:0
+updated: 2022/12/8
 ---
 **Cloudflare Argo Tunnel 内网穿透演示站：[猹盘](https://ed.tcea.top/)**
 
