@@ -1,15 +1,21 @@
 ---
-title: 【自用|转载】活用 Bulma 美化 Icarus 文章
+abbrlink: bulma_template
+categories: []
 cover: https://www.imaegoo.com/gallery/vector/vector_landscape_1.svg
+date: 2022-12-16T10:5:47.470+8:0
 lang: zh-CN
+tags:
+- Bulma
+title: 【自用|转载】活用 Bulma 美化 Icarus 文章
 toc: true
+updated: 2022-12-16T10:5:47.470+8:0
 ---
+转载自iMaeGoo大佬的博客[虹墨空间站](https://www.imaegoo.com/2020/icarus-with-bulma/)。
 
- 转载自iMaeGoo大佬的博客[虹墨空间站](https://www.imaegoo.com/2020/icarus-with-bulma/)，仅用于自用。
-
-<!--more-->
+span
 
 ### 按钮
+
 <div class="buttons">
   <button class="button is-info">Info</button>
   <button class="button is-success">Success</button>
@@ -25,12 +31,17 @@ toc: true
   <button class="button is-danger">Danger</button>
 </div>
 ```
+
 ### 跳转按钮
+
 <button class="button is-info" onclick='window.open("https://ed.tcea.top")'>猹盘</button>
+
 ```
 <button class="button is-info" onclick='window.open("https://ed.tcea.top")'>猹盘</button>
 ```
+
 ### 带有js和注释的按钮
+
 <button class="button is-info" onclick="showHitokoto(event)">显示一言</button>
 
 <blockquote class="hitokoto">↑↑↑ 试着点击“显示一言”！</blockquote>
@@ -48,6 +59,7 @@ function showHitokoto (event) {
     });
 }
 </script>
+
 ```
 <button class="button is-info" onclick="showHitokoto(event)">显示一言</button>
 <blockquote class="hitokoto">↑↑↑ 试着点击“显示一言”！</blockquote>
@@ -68,11 +80,13 @@ function showHitokoto (event) {
 ```
 
 ### 进度条
+
 <progress class="progress is-info" value="20" max="100"></progress>
 <progress class="progress is-success" value="40" max="100"></progress>
 <progress class="progress is-warning" value="60" max="100"></progress>
 <progress class="progress is-danger" value="80" max="100"></progress>
 <progress class="progress is-info" max="100"></progress>
+
 ```
 <progress class="progress is-info" value="20" max="100"></progress>
 <progress class="progress is-success" value="40" max="100"></progress>
@@ -82,6 +96,7 @@ function showHitokoto (event) {
 ```
 
 ### 标签页
+
 <div class="tabs is-toggle"><ul>
 <li class="is-active"><a onclick="onTabClick(event)">
 <span class="icon is-small"><i class="fas fa-image" aria-hidden="true"></i></span>
@@ -127,6 +142,7 @@ function onTabClick (event) {
     $(event.currentTarget).parent().addClass('is-active');
 }
 </script>
+
 ```
 <div class="tabs is-toggle"><ul>
 <li class="is-active"><a onclick="onTabClick(event)">
@@ -177,6 +193,7 @@ function onTabClick (event) {
 ```
 
 ### 彩色突出
+
 {% raw %}<div class="notification is-info">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div>{% endraw %}
@@ -186,6 +203,7 @@ function onTabClick (event) {
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div>{% endraw %}
 ```
+
 {% raw %}<div class="notification is-success">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div>{% endraw %}
@@ -195,59 +213,73 @@ function onTabClick (event) {
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div>{% endraw %}
 ```
+
 {% raw %}<div class="notification is-warning">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div>{% endraw %}
+
 ```
 {% raw %}<div class="notification is-warning">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div>{% endraw %}
+```
+
+{% raw %}<div class="notification is-danger">{% endraw %}
+[Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
+{% raw %}</div>{% endraw %}
+
 ```
 {% raw %}<div class="notification is-danger">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div>{% endraw %}
 ```
-{% raw %}<div class="notification is-danger">{% endraw %}
+
+{% raw %}<article class="message is-info"><div class="message-body">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
-{% raw %}</div>{% endraw %}
+{% raw %}</div></article>{% endraw %}
+
 ```
 {% raw %}<article class="message is-info"><div class="message-body">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div></article>{% endraw %}
 ```
-{% raw %}<article class="message is-info"><div class="message-body">{% endraw %}
+
+{% raw %}<article class="message is-success"><div class="message-body">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div></article>{% endraw %}
+
 ```
 {% raw %}<article class="message is-success"><div class="message-body">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div></article>{% endraw %}
 ```
-{% raw %}<article class="message is-success"><div class="message-body">{% endraw %}
+
+{% raw %}<article class="message is-warning"><div class="message-body">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div></article>{% endraw %}
+
 ```
 {% raw %}<article class="message is-warning"><div class="message-body">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div></article>{% endraw %}
 ```
-{% raw %}<article class="message is-warning"><div class="message-body">{% endraw %}
+
+{% raw %}<article class="message is-danger"><div class="message-body">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div></article>{% endraw %}
+
 ```
 {% raw %}<article class="message is-danger"><div class="message-body">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div></article>{% endraw %}
 ```
-{% raw %}<article class="message is-danger"><div class="message-body">{% endraw %}
-[Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
-{% raw %}</div></article>{% endraw %}
-```
+
 {% raw %}<article class="message is-info"><div class="message-header">{% endraw %}
 活用 Bulma 美化 Icarus 文章
 {% raw %}</div><div class="message-body">{% endraw %}
 [Icarus](https://blog.zhangruipeng.me/hexo-theme-icarus/) 主题以白色的简洁为主，但有时候我们希望在文章中用**特别的样式**注明一些内容，*markdown* 语法就不够用了，所以在此分享一下我的高级玩法。
 {% raw %}</div></article>{% endraw %}
+
 ```
 {% raw %}<article class="message is-info"><div class="message-header">{% endraw %}
 活用 Bulma 美化 Icarus 文章
@@ -257,20 +289,26 @@ function onTabClick (event) {
 ```
 
 ### 点击展开代码
-``` js 点击展开代码 >folded
+
+```js
 console.log('I love Icarus!');
 ```
+
 ````
 ``` js 点击展开代码 >folded
 console.log('I love Icarus!');
 ```
 ````
+
 ### 你知道的太多了（文字遮罩）
+
 {% raw %}
+
 <style type="text/css">
 .heimu { color: #000; background-color: #000; }
 .heimu:hover { color: #fff; }
 </style>
+
 {% endraw %}
 **iMaeGoo** 出自独立游戏 [World of Goo](https://store.steampowered.com/app/22000/) 里小粘球的叫声，读作 /ɪ'mæɡu/ {% raw %}<span class="heimu">不是爱妹狗啊</span>{% endraw %}，在家里电脑还是个大头（CRT）的时候就在玩了，其实头像也是在当时设定的，一直沿用至今。{% raw %}<span class="heimu">找不到女朋友誓不改头像</span>{% endraw %}
 
@@ -287,6 +325,7 @@ console.log('I love Icarus!');
 ### 让简介不出现在正文
 
 我们知道 Hexo 用 `<!-- more -->` 可以分隔简介和正文部分，但这样简介也会在正文中出现，如果我们不想让简介部分出现在正文呢？
+
 ```
 这里的内容会出现在 **简介和正文**
 
@@ -306,21 +345,23 @@ console.log('I love Icarus!');
 ```
 
 ### 图片来源声明
+
 <a class="tag is-dark is-medium" href="https://www.vecteezy.com/free-vector/vector-landscape" target="_blank">
 <span class="icon"><i class="fas fa-camera"></i></span>&nbsp;&nbsp;
 Vector Landscape Vectors by Vecteezy
 </a>
+
 ```
 <a class="tag is-dark is-medium" href="https://www.vecteezy.com/free-vector/vector-landscape" target="_blank">
-<span class="icon"><i class="fas fa-camera"></i></span>&nbsp;&nbsp;
+<span class="icon"><i class="fas fa-camera"></i></span>  
 Vector Landscape Vectors by Vecteezy
 </a>
 ```
 
-------
-
+---
 
 ###多选项卡
+
 <div class="tabs is-boxed"><ul>
 <li class="is-active"><a>
 <span class="icon is-small"><i class="fas fa-file-code" aria-hidden="true"></i></span>
@@ -345,6 +386,7 @@ Vector Landscape Vectors by Vecteezy
 ```
 
 ### 多语言提示
+
 <article class="message message-immersive is-primary">
 <div class="message-body">
 <i class="fas fa-globe-asia mr-2"></i>This article is also available in 
