@@ -1,5 +1,5 @@
 ---
-abbrlink: ''
+abbrlink: summary
 categories: []
 cover: https://p0.meituan.net/dpplatform/2b17ac8bd4509d340b6a3d998a9a015598970.jpg
 date: 2022/12/8 21:44
