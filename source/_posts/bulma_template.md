@@ -6,7 +6,7 @@ date: 2022-12-16T10:5:47.470+8:0
 lang: zh-CN
 tags:
 - Bulma
-title: 【自用|转载】活用 Bulma 美化 Icarus 文章
+title: 【转载】活用 Bulma 美化 Icarus 文章
 toc: true
 updated: 2022-12-16T10:5:47.470+8:0
 ---
