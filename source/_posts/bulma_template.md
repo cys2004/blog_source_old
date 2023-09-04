@@ -8,11 +8,12 @@ tags:
 - Bulma
 title: 【转载】活用 Bulma 美化 Icarus 文章
 toc: true
-updated: 2022/12/16
+updated: 2023-9-4T10:17:59.248+8:0
 ---
 转载自iMaeGoo大佬的博客[虹墨空间站](https://www.imaegoo.com/2020/icarus-with-bulma/)。
 
-span
+<!--more-->
+
 
 ### 按钮
 
