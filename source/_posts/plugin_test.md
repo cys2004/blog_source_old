@@ -8,7 +8,7 @@ tags:
 - 测试
 title: Hexo插件测试
 toc: true
-updated: 2023/1/19 12:00
+updated: 2023-9-4T16:27:2.528+8:0
 ---
 一些插件的测试和模板
 
@@ -46,7 +46,7 @@ updated: 2023/1/19 12:00
         var mp = new MuiPlayer({
             container: '#mui-player',
             title: '视频标题',
-            src: 'https://muiplayer.oss-cn-shanghai.aliyuncs.com/static/media/media.mp4',
+            src: 'https://ed.tcea.top/d/ChaIndex/Space/cys/2022%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E6%8B%9C%E5%B9%B4%E7%BA%AA/2022%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9%E6%8B%9C%E5%B9%B4%E7%BA%AA\_%E9%AB%98%E6%B8%85%201080P.mp4',
         })
     </script>
 
