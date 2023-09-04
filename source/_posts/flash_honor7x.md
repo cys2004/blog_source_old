@@ -2,14 +2,14 @@
 abbrlink: flash_honor7x
 categories: []
 cover: https://m.360buyimg.com/babel/jfs/t1/221156/11/14683/669884/63c69b14Fb5763414/3d20dbd73169c90d.jpg
-date: 2023-1-17T10:1:5.426+8:0
+date: 2023/1/17
 lang: zh-CN
 tags:
 - 刷机
 - Android
 title: 辞旧迎新——荣耀畅玩7X（BND-AL10）刷机手记
 toc: true
-updated: 2023-9-4T10:4:1.947+8:0
+updated: 2023/1/17
 ---
 由于系统崩坏等一系列原因，我在春节前夕彻底告别了伴随我两年之久的旧系统。本文简单记录了我的刷机过程。如有疑问，欢迎评论区交流。
 
