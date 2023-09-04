@@ -1,10 +1,15 @@
 ---
-title: 利用vConsole下载钉钉直播回放
-cover: 
+abbrlink: dingtalk_liverecord_download
+categories: []
+cover: null
+date: 2022/12/20 21:48
 lang: zh-CN
+tags:
+- 钉钉
+title: 利用vConsole下载钉钉直播回放
 toc: true
+updated: 2022/12/20 21:48
 ---
-
 不出所料，我在学校集中隔离时被检出新冠阳性，因而不得不居家学习。于是，就有了这一次的旧活重整。
 
 <!--more-->
@@ -40,4 +45,3 @@ var sToInsert = "<script src='https://fastly.jsdelivr.net/gh/Tencent/vConsole@3.
 ![](https://p1.meituan.net/csc/c66279c888bb9e138fe793234b5aa4c459422.png)
 
 注意：一些较老的教程给出的引入vConsole的代码中直接使用了vConsole在jsdeliver中的地址，但由于[jsdeliver在国内无法使用](https://luotianyi.vc/6295.html)会导致引用失败。只需将代码中的```http://cdn.jsdelivr.net```替换为```http://fastly.jsdelivr.net```即可。
-
