@@ -1,10 +1,16 @@
 ---
-title: 辞旧迎新——荣耀畅玩7X（BND-AL10）刷机手记
+abbrlink: flash_honor7x
+categories: []
 cover: https://m.360buyimg.com/babel/jfs/t1/221156/11/14683/669884/63c69b14Fb5763414/3d20dbd73169c90d.jpg
+date: 2023-1-17T10:1:5.426+8:0
 lang: zh-CN
+tags:
+- 刷机
+- Android
+title: 辞旧迎新——荣耀畅玩7X（BND-AL10）刷机手记
 toc: true
+updated: 2023-9-4T10:4:1.947+8:0
 ---
-
 由于系统崩坏等一系列原因，我在春节前夕彻底告别了伴随我两年之久的旧系统。本文简单记录了我的刷机过程。如有疑问，欢迎评论区交流。
 
 <!--more-->
@@ -47,8 +53,8 @@ toc: true
 **该Recovery仅适配Honor 7X的出厂系统EMUI 8.0.0，如果后续通过OTA升级到EMUI 9.0/9.1，需要先通过华为手机助手降级到EMUI 8.0.0，然后再刷入TWRP Recovery。**
 {% raw %}</div></article>{% endraw %}
 
-
 ### 解锁Bootloader
+
 鉴于华为早在2018年就关闭了官方获取Bootloader解锁码的通道，现在只能通过非官方途径解锁Bootloader。此处建议通过淘宝等平台远程租用猎人加密狗等工具进行解锁。如果对自己没有信心，也可以直接购买第三方解锁服务，但价格会高出不少。
 
 我的设备已经解锁了Bootloader，因此本次刷机无需进行这一步。
@@ -70,6 +76,7 @@ toc: true
    `fastboot flash recovery [TWRP Recovery的位置]`
 5. 重启设备
    `fastboot reboot`
+
 ### 刷入固件
 
 1. 解压出固件中的卡刷包`/Firmware/dload/update_sd.zip`。
@@ -85,33 +92,25 @@ toc: true
 ### 修补RAMDISK
 
 1. 解压出卡刷包`update_sd.zip`中的`UPDATE.APP`文件
-
 2. 下载HuaweiUpdateExtractor并打开，在`Settings`选项卡中取消勾选`Verify header checksum`。
-
 3. 将刚才解压得到的`UPDATE.APP`文件拖动到程序窗口中，找到`RECOVERY_RAMDIS.img`，右键导出。
-
 4. 使用adb将刚才导出的文件推送到设备存储。
    `adb push [RECOVERY_RAMDIS.img的位置] /sdcard`
-
 5. 在设备上安装`Magisk Manager`，点击“安装”——“安装到Recovery”——“选择并修补一个文件”，然后选择刚才推送到设备存储中的`RECOVERY_RAMDIS.img`，等待文件修补完成。
-
 6. 文件修补完成后，将设备存储Downloads目录下生成的以`magisk_patched`为文件名开头的文件复制到电脑上。
+
 ### 刷入修补后的RAMDISK
 
 1. 使用adb重启到fastboot模式。
    `adb reboot fastboot`
-
 2. 在fastboot模式下刷入修补过的ramdisk文件。
    `fastboot flash recovery_ramdisk [magisk_patched-xxx.img文件的位置]`
-
 3. 刷入完成后重启手机到正常系统。
    `fastboot reboot`
-
 4. 在正常系统中通过adb重启到Recovery。
-    `adb reboot recovery`
+   `adb reboot recovery`
 
-    **此时的Recovery分区已经刷入了Magisk，执行此命令后将进入带有Magisk环境的系统，而不是先前的TWRP Recovery。**
-
+   **此时的Recovery分区已经刷入了Magisk，执行此命令后将进入带有Magisk环境的系统，而不是先前的TWRP Recovery。**
 5. 进入系统后，打开Magisk Manager，点击“安装”——“安装到Recovery”——“直接安装（推荐）”，等待Magisk安装完成后重启手机，自动进入带有Magisk的系统。
 
 {% raw %}<article class="message is-warning"><div class="message-header">{% endraw %}
