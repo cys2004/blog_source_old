@@ -9,6 +9,7 @@ tags:
 - Typora
 - Rust
 title: 通过NodeInject和Yporaject进行Typora激活
+toc: true
 updated: 2023/10/1 11:00
 ---
 众所周知，Typora是一款非常优秀的Markdown编辑器，而我日常撰写博文使用的也正是Typora。然而，正版Typora高达89元的售价让不少像我这样的学生党望而却步，不得不通过其他技术手段来使用Typora。而在互联网上公开的破解手段中，大多数都是采用对 Typora 加密的核心js进行修改或直接Patch二进制的方式实现绕过授权校验的。这些方案当然可行，但仍存在版本针对性强、侵入性高等诸多缺陷。在这种情况下，吾爱破解论坛的[hlrlqy](https://www.52pojie.cn/home.php?mod=space&uid=300010)大佬提出的一种[通过对Node.js的相关实现进行Hook从而修改数据的方法](https://www.52pojie.cn/thread-1710146-1-1.html)就成为了更加理想的破解方式。本文仅记录我部署这一项目的过程，仍然**强烈推荐有经济能力的朋友[支持正版Typora](https://lizhi.shop/site/products/id/520)。**
@@ -114,7 +115,7 @@ License for you: xxxxxx-xxxxxx-xxxxxx-xxxxxx
 typora &
 ```
 
-依次点击界面上方菜单栏的 **帮助 > 我的许可证...(Help > My license)**打开激活界面，然后输入激活邮箱（可以任意填写）和上面复制的序列码。
+依次点击界面上方菜单栏的**帮助 > 我的许可证...(Help > My license)**打开激活界面，然后输入激活邮箱（可以任意填写）和上面复制的序列码。
 
 如果遇到网络问题导致的“序列码激活软件失败，连接不上服务器”，可以在**偏好设置 > 通用**中勾选 **“使用Typora国内服务器”**。如果问题仍然没有解决，可以挂代理后使用国外激活服务器（不勾选 “使用Typora国内服务器”）重试。
 
