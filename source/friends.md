@@ -66,12 +66,19 @@ line-height: 26px;
 <div class="friend">
     <div class="friend-avatar" style="background-image: url('https://m.360buyimg.com/babel/jfs/t1/31239/1/19758/11491/63ad3be0Fd3971f0b/39e9c066972aae95.png')"></div>
     <div class="friend-detail">
-      <div>网站名称：猹盘 </div>
-      <div>网站地址：<a target="_blank" href="https://ed.tcea.top">https://ed.tcea.top</a></div>
-      <div>网站简介：一个芜湖起飞的网盘</div>
+      <div>猹盘 </div>
+      <div><a target="_blank" href="https://ed.tcea.top">https://ed.tcea.top</a></div>
+      <div>一个芜湖起飞的网盘</div>
     </div>
   </div>
-
+<div class="friend">
+    <div class="friend-avatar" style="background-image: url('http://hxcn.qcea.top/wp-content/uploads/2023/09/favicon.png')"></div>
+    <div class="friend-detail">
+      <div>萑澈的寒舍 </div>
+      <div><a target="_blank" href="https://hxcn.qcea.top">https://hxcn.qcea.top</a></div>
+      <div>就是为了这点醋才包了这顿饺子</div>
+    </div>
+  </div>
 <!-- <div class="friend" style="border:none;"></div> -->
 </div>
 {% endraw %}
