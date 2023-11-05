@@ -21,8 +21,6 @@ updated: 2023/10/1 11:00
 
 {% aplayer "小满" "音阙诗听,王梓钰" "https://ed.tcea.top/d/ChaIndex/Space/tcea/%E5%B0%8F%E6%BB%A1%20-%20%E9%9F%B3%E9%98%99%E8%AF%97%E5%90%AC%E3%80%81%E7%8E%8B%E6%A2%93%E9%92%B0.mp3" "https://z1.ax1x.com/2023/11/05/piQcrdK.jpg" "lrc:https://files.catbox.moe/thzv94.lrc" %}
 
-## 刷入原厂固件
-
 用于进行注入的 [NodeInject ](https://github.com/DiamondHunters/NodeInject)项目和用于生成License Key的 [NodeInject_Hook_example ](https://github.com/DiamondHunters/NodeInject_Hook_example)项目是这一方案的官方Rust实现。由[hazukieq](https://github.com/hazukieq)大佬Fork的版本 [Yporaject](https://github.com/hazukieq/Yporaject) 合并了上述两个项目并撰写了详细的教程。在此对二位大佬的所做的工作表示感谢。
 
 注意：
