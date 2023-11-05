@@ -17,7 +17,7 @@ updated: 2023/11/5 15:00
 
 <!--more-->
 
-  {% aplayer "遥相逢" "洛天依，蜂鳥" "https://files.catbox.moe/yd0rc2.mp3" "https://z1.ax1x.com/2023/11/05/piQ6zPe.jpg" "lrc:https://files.catbox.moe/9dd213.lrc" %}
+  {% aplayer "遥相逢" "洛天依，蜂鳥" "https://ed.tcea.top/d/ChaIndex/Space/tcea/%E3%80%90%E6%B4%9B%E5%A4%A9%E4%BE%9DAI%E3%80%91%E9%81%A5%E7%9B%B8%E9%80%A2%20.mp3" "https://z1.ax1x.com/2023/11/05/piQ6zPe.jpg" "lrc:https://files.catbox.moe/9dd213.lrc" %}
 
 ## 通用方法——禁用javascript
 

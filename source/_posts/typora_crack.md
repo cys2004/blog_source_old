@@ -19,7 +19,7 @@ updated: 2023/10/1 11:00
 
 <!--more-->
 
-{% aplayer "小满" "音阙诗听,王梓钰" "https://files.catbox.moe/yba5oj.mp3" "https://z1.ax1x.com/2023/11/05/piQcrdK.jpg" "lrc:https://files.catbox.moe/thzv94.lrc" %}
+{% aplayer "小满" "音阙诗听,王梓钰" "https://ed.tcea.top/d/ChaIndex/Space/tcea/%E5%B0%8F%E6%BB%A1%20-%20%E9%9F%B3%E9%98%99%E8%AF%97%E5%90%AC%E3%80%81%E7%8E%8B%E6%A2%93%E9%92%B0.mp3" "https://z1.ax1x.com/2023/11/05/piQcrdK.jpg" "lrc:https://files.catbox.moe/thzv94.lrc" %}
 
 ## 刷入原厂固件
 
