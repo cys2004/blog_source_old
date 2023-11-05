@@ -16,7 +16,12 @@ updated: 2023/10/1 11:00
 但是，在互联网上公开的破解手段中，大多数都是采用对 Typora 加密的核心js进行修改或直接Patch二进制的方式实现绕过授权校验的。这些方案当然可行，但仍存在版本针对性强、侵入性高等诸多缺陷。
 在这种情况下，吾爱破解论坛的[hlrlqy](https://www.52pojie.cn/home.php?mod=space&uid=300010)大佬提出的一种[通过对Node.js的相关实现进行Hook从而修改数据的方法](https://www.52pojie.cn/thread-1710146-1-1.html)就成为了更加理想的破解方式。
 本文仅记录我部署这一项目的过程，仍然**强烈推荐有经济能力的朋友[支持正版Typora](https://lizhi.shop/site/products/id/520)。**
+
 <!--more-->
+
+{% aplayer "小满" "音阙诗听,王梓钰" "https://files.catbox.moe/yba5oj.mp3" "https://z1.ax1x.com/2023/11/05/piQcrdK.jpg" "lrc:https://files.catbox.moe/thzv94.lrc" %}
+
+## 刷入原厂固件
 
 用于进行注入的 [NodeInject ](https://github.com/DiamondHunters/NodeInject)项目和用于生成License Key的 [NodeInject_Hook_example ](https://github.com/DiamondHunters/NodeInject_Hook_example)项目是这一方案的官方Rust实现。由[hazukieq](https://github.com/hazukieq)大佬Fork的版本 [Yporaject](https://github.com/hazukieq/Yporaject) 合并了上述两个项目并撰写了详细的教程。在此对二位大佬的所做的工作表示感谢。
 

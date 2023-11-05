@@ -15,7 +15,7 @@ updated: 2023/1/17
 
 <!--more-->
 
-{% aplayer "扬旗鸣鼓【bilibili音乐·2022虚拟歌手贺岁纪单品】" "祈Inory, 多多poi" "https://files.catbox.moe/e2zsup.mp3" "https://m.360buyimg.com/babel/jfs/t1/213202/5/25123/120697/63c652d7F0fb332e3/02f2c40e431492b5.jpg" "lrc:https://files.catbox.moe/6pecu1.lrc" %}
+{% aplayer "扬旗鸣鼓【bilibili音乐·2022虚拟歌手贺岁纪单品】" "祈Inory, 多多poi" "https://files.catbox.moe/yba5oj.mp3" "https://z1.ax1x.com/2023/11/05/piQcrdK.jpg" "lrc:https://files.catbox.moe/thzv94.lrc" %}
 
 ## 刷入原厂固件
 
