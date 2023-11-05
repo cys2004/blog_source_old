@@ -17,7 +17,7 @@ updated: 2023/11/5 15:00
 
 <!--more-->
 
-  
+  {% aplayer "遥相逢" "洛天依，蜂鳥" "https://files.catbox.moe/yd0rc2.mp3" "https://z1.ax1x.com/2023/11/05/piQ6zPe.jpg" "lrc:https://files.catbox.moe/9dd213.lrc" %}
 
 ## 通用方法——禁用javascript
 
