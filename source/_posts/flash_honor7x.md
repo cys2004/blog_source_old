@@ -141,5 +141,5 @@ updated: 2023/1/17
 
 [Magisk 安装说明 - 锦夏挽秋（译）](https://blog.csdn.net/qq1337715208/article/details/115922514)
 
-<a class="tag is-dark is-medium" href="https://novelai.net/" target="_blank">
-<span class="icon"><i class="fas fa-camera"></i></span>&nbsp;&nbsp;文章头图由NovelAI生成 </a>
+<a class="tag is-dark is-medium" href="https://github.com/Stability-AI/StableDiffusion" target="_blank">
+<span class="icon"><i class="fas fa-camera"></i></span>&nbsp;&nbsp;文章头图由Stable Diffusion生成 </a>
