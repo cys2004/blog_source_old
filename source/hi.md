@@ -205,7 +205,7 @@ if(1) {
         data.forEach(item => { items.push(Format(item)) });
         if (items.length == 30) document.querySelector('.limit').style.display = 'block';
         items.forEach(item => {
-            html += `<div class="talk_item"><div class="talk_meta"><img class="no-lightbox no-lazyload avatar" src="https://q1.qlogo.cn/g?b=qq&nk=990320751&s=5"><div class="info"><span class="talk_nick">Leonus${icon}</span><span class="talk_date">${item.date}</span></div></div><div class="talk_content">${item.content}</div><div class="talk_bottom"><div><span class="talk_tag"># ${item.tag}</span></div><a href="javascript:;"onclick="goComment('${item.text}')"><span class="icon"><i class="fa-solid fa-message fa-fw"></i></span></a></div></div>` // 注意修改头像链接和名称
+            html += `<div class="talk_item"><div class="talk_meta"><img class="no-lightbox no-lazyload avatar" src="https://p0.meituan.net/csc/9d92e3239ccf0a799a2f00418564f4b2108562.png"><div class="info"><span class="talk_nick">白鼠${icon}</span><span class="talk_date">${item.date}</span></div></div><div class="talk_content">${item.content}</div><div class="talk_bottom"><div><span class="talk_tag"># ${item.tag}</span></div><a href="javascript:;"onclick="goComment('${item.text}')"><span class="icon"><i class="fa-solid fa-message fa-fw"></i></span></a></div></div>` // 注意修改头像链接和名称
         })
         document.getElementById('talk').innerHTML = html
     })

@@ -49,7 +49,8 @@ navbar:
         分类: /categories/
         标签: /tags/
         友情链接: /friends/
-        关于: /about/
+        说说: /hi/
+        # 关于: /about/
     links: 
 footer:
     links:
