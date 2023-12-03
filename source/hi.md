@@ -3,6 +3,9 @@
 lang: zh-CN
 toc: false
 comment: false
+cc: false
+share: false
+donates: false
 ---
 <style>
 /* 页面初始化 */
