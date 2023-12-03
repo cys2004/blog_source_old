@@ -1,3 +1,9 @@
+---
+---
+lang: zh-CN
+toc: false
+comment: false
+---
 <style>
 /* 页面初始化 */
 div#page {
@@ -241,7 +247,7 @@ if(1) {
         }
         return {
             content: content,
-            tag: tag ? tag[0].replace(/\{(.*?)\}/,'$1') : '无标签',
+            tag: tag ? tag[0].replace(/\{(.*?)\}/,'$1') : '',
             date: date,
             text: text.replace(/\[(.*?)\]\((.*?)\)/g, '[链接]' + `${imgs?'[图片]':''}`)
         }
