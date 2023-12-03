@@ -197,7 +197,7 @@ span.talk_tag{
 <div class="limit">- 只展示最近30条说说 -</div>
 <script>
 if(1) {
-    let url = 'https://你的memos地址'
+    let url = 'https://hi.tcea.top'
     fetch(url + '/api/v1/memo?creatorId=1&tag=说说&limit=30').then(res => res.json()).then(data => { // 注意修改域名和用户id
         let items = [],
             html = '',
